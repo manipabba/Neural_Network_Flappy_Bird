@@ -13,11 +13,6 @@ var ifBestBird = false;
 var checkbox;
 var ifTrain = true;
 
-
-// function preload(){
-//   img = loadImage('https://mpabba2.github.io/assets/green_pipe.png');
-// }
-
 function setup(){
   //loading in images
   pipeImgTop = loadImage(pipeImgTopString);
@@ -29,6 +24,12 @@ function setup(){
   //checkbox setup
   checkbox = createCheckbox("Check to play trained model", false);
   checkbox.changed(checkedEvent);
+
+  //checkbox css
+  checkbox.style("margin", "0");
+  checkbox.style("display", "flex");
+  checkbox.style("justify-content", "center");
+  checkbox.style("align-items", "center");
 
   createCanvas(900,500);
 

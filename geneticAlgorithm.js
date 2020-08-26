@@ -4,12 +4,12 @@ function createNewGeneration(){
   calculateFitness();
 
   //saving bird
-  if(saveBest){
-    saveBest = false;
-    saveBird();
-    //let serializedBrain = JSON.stringify(saveBird.brain.model);
-    //save(serializedBrain, "best_bird.json");
-  }
+  // if(saveBest){
+  //   saveBest = false;
+  //   saveBird();
+  //   //let serializedBrain = JSON.stringify(saveBird.brain.model);
+  //   //save(serializedBrain, "best_bird.json");
+  // }
 
   for(let i = 0; i < popSize; i++){
     //birdArray.push(createBird()); //try tidy() this

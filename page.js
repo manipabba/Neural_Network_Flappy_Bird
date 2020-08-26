@@ -1,1 +1,1 @@
-var saveBest = false;
+//var saveBest = false;

@@ -1,0 +1,15 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  /*background: url("assets/background.jpg");*/
+  /*background-color: linear-gradient(#a0dbfe, #79bae2);*/
+  background-color: #a0dbfe;
+  margin: 0;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
